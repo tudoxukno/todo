@@ -1,6 +1,27 @@
 body {
-  background-color: #fff;
-  color: #333;
+  background-image: url("http://lphelp.info/uploads/images/wood-floor-background-decorating-2.jpeg");
+  position: absolute;
+  margin: auto;
+
+}
+
+@font-face { font-family: Blacksword;
+src: url('BLACKSWORD.TTF'); }
+h1 {
+  font-family: Blacksword;
+  text-align: center;
+  color: white;
+  margin: 0;
+  font-size: 60px;
+}
+
+tr {
+  padding: 2em 10em 2em 10em;
+  margin: 0;
+  /*position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
 }
 
 body, p, ol, ul, td {
@@ -8,6 +29,7 @@ body, p, ol, ul, td {
   font-size: 13px;
   line-height: 18px;
   margin: 33px;
+  text-align: center;
 }
 
 pre {
@@ -30,7 +52,9 @@ a:hover {
 }
 
 th {
-  padding-bottom: 5px;
+  padding: 2em 10em 2em 10em;
+  text-align: center;
+  text-shadow: black;
 }
 
 td {
